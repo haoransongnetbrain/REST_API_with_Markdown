@@ -10,7 +10,7 @@ This method returns a list of accessible tenants (including tenant ID and names)
 
 > **Version** : 01/23/2019.
 
-> **API Server URL** : http(s):// IP address of your NetBrain Web API Server /ServicesAPI/API/V1/CMDB/Tenants
+> **API Server URL** : http(s):// < NetBrain Web API Server Address > /ServicesAPI/API/V1/CMDB/Tenants
 
 > **Authentication** : 
 
