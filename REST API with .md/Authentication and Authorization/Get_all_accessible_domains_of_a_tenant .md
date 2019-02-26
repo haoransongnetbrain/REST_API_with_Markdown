@@ -1,7 +1,5 @@
 
-# Authentication and Initialization API STANDARD Formate TEST2
-
-## ***GET*** /V1/CMDB/Domains/{?tenantId}
+# Authentication and Authorization API ## ***GET*** /V1/CMDB/Domains/{?tenantId}
 Use this function returns a list of accessible domains in a specific tenant. The returned accessible domains vary by the user privileges you use to log in. To retrieve a full list of domains in a specified tenant, you must log in with system admin or tenant admin permissions. 
 
 ## Detail Information

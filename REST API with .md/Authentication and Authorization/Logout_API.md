@@ -1,5 +1,5 @@
 
-# Authentication and Initialization API STANDARD Formate 
+# Authentication and Authorization API 
 
 ## ***DELETE*** /V1/Session
 Use this API to log out from the current session.

@@ -1,7 +1,5 @@
 
-# Authentication and Initialization API STANDARD Formate TEST2
-
-## ***PUT*** /V1/Session/CurrentDomain
+# Authentication and Authorization API## ***PUT*** /V1/Session/CurrentDomain
 Use this API to specify a domain to work on to get or set NetBrain data by associating domainID to the current session. 
 
 ## Detail Information

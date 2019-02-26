@@ -1,7 +1,5 @@
 
-# Authentication and Initialization API STANDARD Formate TEST2
-
-## ***GET*** /V1/CMDB/Tenants/
+# Authentication and Authorization API ## ***GET*** /V1/CMDB/Tenants/
 This method returns a list of accessible tenants (including tenant ID and names). The returned tenants list varies by the privileges of different user roles. To retrieve a full list of all available tenants, users must log in with admin role. 
 
 ## Detail Information
