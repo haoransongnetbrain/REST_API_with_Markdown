@@ -1,5 +1,5 @@
 
-# Authentication and Authorization API 
+# Authentication and Authorization API
 
 ## ***DELETE*** /V1/Session
 Use this API to log out from the current session.

@@ -1,5 +1,5 @@
 
-# Authentication and Authorization API 
+# Authentication and Authorization API
 OpenAPI version 1.0.0
 
 ## ***POST*** /V1/Session
