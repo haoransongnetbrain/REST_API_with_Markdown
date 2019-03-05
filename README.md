@@ -1,8 +1,15 @@
 
 # Netbrain REST API Documentation
-Netbrain provide all available REST APIs in this repository. We offer two sections in current repo. First section elaborate the detail information for each API. Second section describe the workflow of five customer use cases with API multiple calling. We provide resonable explanations and clear sample code in both sections. We hope users can understand the different features of different APIs and construct a concept to solve some use cases by multi-calling Netbrain REST APIs.  
+Netbrain provide all available REST APIs in this repository. We offer two sections in current repo. First section describe the workflow of five customer use cases with API multiple calling. Second section elaborate the detail information for each API. We provide resonable explanations and clear sample code in both sections. We hope users can understand the different features of different APIs and construct a concept to solve some use cases by multi-calling Netbrain REST APIs.  
 
-## Section 1) REST APIs Documentation
+## Section 1) Golden Use Case Templates
+1) Get Path By Calling APIs<br>
+2) Sites Management by Calling APIs<br>
+3) Calling Trigger Diagnosis API<br>
+4) Discovery and Devices Management by Calling APIs<br>
+5) CMDB Synchronized by Calling APIs
+
+## Section 2) REST APIs Documentation
 
 ### Athentication and Authorization
 1) Login API<br>
@@ -118,12 +125,6 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 5) Update User API 
 
 
-## Section 2) Golden Use Case Templates
-1) Get Path By Calling APIs<br>
-2) Sites Management by Calling APIs<br>
-3) Calling Trigger Diagnosis API<br>
-4) Discovery and Devices Management by Calling APIs<br>
-5) CMDB Synchronized by Calling APIs
 
 
 ```python
