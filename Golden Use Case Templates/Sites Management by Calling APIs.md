@@ -83,6 +83,7 @@ def login(login_URL, body, headers):
 token = login(login_URL, body, headers)
 print(token) # print out the authentication token.
 ```
+API Response: 
 
     639afa4a-0fb1-4005-b540-ad037ed131d9
     
@@ -117,6 +118,7 @@ def specify_a_working_domain(tenantId, domainId, Specify_a_working_domain_url, h
 res =  specify_a_working_domain(tenantId, domainId, Specify_a_working_domain_url, headers, token)
 print (res)
 ```
+API Response: 
 
     Working Domain Specified Successfully, with domainId: 850ff5e9-c639-404d-85a3-d920dbee509c
     
@@ -159,6 +161,7 @@ def create_a_transaction(create_a_transaction_URL, headers, token):
 result = create_a_transaction(create_a_transaction_URL, headers, token)
 result
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     
@@ -186,6 +189,7 @@ def site_transaction_heartbeat(headers, token):
 result = site_transaction_heartbeat(headers, token)
 result
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     
@@ -240,6 +244,7 @@ def create_site(create_site_URL, headers, token, body):
 result = create_site(create_site_URL, headers, token, body)
 result
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     
@@ -269,6 +274,7 @@ def create_a_leaf_site(create_a_leaf_site_URL, headers, token, body):
 result = create_a_leaf_site(create_a_leaf_site_URL, headers, token, body)
 result
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     
@@ -315,6 +321,7 @@ def add_site_device(add_site_device_URL, headers, token, body):
 result = add_site_device(add_site_device_URL, headers, token, body)
 result
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     
@@ -332,6 +339,7 @@ body1 = {
 result1 = add_site_device(add_site_device_URL, headers, token, body1)
 result1
 ```
+API Response: 
 
     Devices added Fail! - {"statusCode":791006,"statusDescription":"leaf site 6397dc66-429e-4e32-a5f1-0e3d3b72ba7e does not exist."}
     
@@ -365,6 +373,7 @@ def get_site_devices(get_site_devices_URL, headers, token, data):
 result = get_site_devices(get_site_devices_URL, headers, token, data)
 result
 ```
+API Response: 
 
     [{'id': '71e07730-1247-4f5f-acbc-2b3428f8d0cf', 'mgmtIP': '10.18.19.18', 'hostname': 'R18'}]
     
@@ -383,6 +392,7 @@ result1 = get_site_devices(get_site_devices_URL, headers, token, data1)
 result1
 
 ```
+API Response: 
 
     [{'id': '1d48d218-06cf-4657-af2c-39796946122b', 'mgmtIP': '123.10.1.1', 'hostname': 'R4'}, {'id': '497b25bd-1f8c-4bfa-80be-49ab692ce4d4', 'mgmtIP': '123.10.1.10', 'hostname': 'R3'}, {'id': '5c3d72d6-d0f2-41f4-8b1e-5762dff6e55a', 'mgmtIP': '123.10.1.22', 'hostname': 'R6'}, {'id': '6d62e420-af59-4ee3-948d-54df60fe05ca', 'mgmtIP': '123.10.1.6', 'hostname': 'R5'}, {'id': '81229708-571a-419a-a10d-9481661718a4', 'mgmtIP': '123.10.1.2', 'hostname': 'R1'}, {'id': 'a8652884-7701-5e84-b4d8-cc03652490e5', 'hostname': 'ISP'}, {'id': 'b98f107a-622e-4985-8f95-f5b541f699f3', 'mgmtIP': '123.7.7.7', 'hostname': 'R7'}, {'id': 'f190b385-676f-4579-ad6d-700122a21caf', 'mgmtIP': '123.10.1.17', 'hostname': 'R2'}]
     
@@ -419,6 +429,7 @@ def replace_site_devices(replace_site_devices_URL, headers, token, body):
 result = replace_site_devices(replace_site_devices_URL, headers, token, body)
 result
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     
@@ -450,6 +461,7 @@ def commit_Site_Transaction(commit_Site_Transactio_URL, headers, token, rebuildS
 result = commit_Site_Transactio(commit_Site_Transactio_URL, headers, token, rebuildSite)
 result
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     
@@ -481,7 +493,7 @@ logout = logout(Logout_url, token, headers)
 logout
 ```
 
-
+API Response: 
 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
