@@ -85,7 +85,7 @@ token = login(login_URL, body, headers)
 print(token) # print out the authentication token.
 ```
 
-    cc25cbea-d244-494d-b6f9-32937bdadc69
+token output:    cc25cbea-d244-494d-b6f9-32937bdadc69
     
 
 
@@ -117,7 +117,7 @@ tenantId = get_all_accessible_tenants(Accessible_tenants_url, token, headers)
 print(tenantId) # print out the specified tenant id.
 ```
 
-    fb24f3f0-81a7-1929-4b8f-99106c23fa5b
+Tenant ID output:    fb24f3f0-81a7-1929-4b8f-99106c23fa5b
     
 
 
@@ -149,7 +149,7 @@ domainId = get_all_accessible_domains(tenantId, token, headers)
 print(domainId) # Print out the specified domain Id.
 ```
 
-    850ff5e9-c639-404d-85a3-d920dbee509c
+Domain ID output:    850ff5e9-c639-404d-85a3-d920dbee509c
     
 
 
@@ -226,7 +226,7 @@ print("Total Devices Number: " + str(len(devices)))
 devices[0:10]
 ```
 
-    Total Devices Number: 93
+API Response:    Total Devices Number: 93
     
 
 
@@ -309,7 +309,7 @@ print(str(len(ips)))
 ips[0:10]
 ```
 
-    88
+API Response:    88
     
 
 
@@ -361,7 +361,7 @@ print(str(len(results)))
 results[0:10]
 ```
 
-    88
+API Response:    88
     
 
 
@@ -443,7 +443,7 @@ ress
 
 ```
 
-    88
+API Response:    88
     
 
 
@@ -574,6 +574,7 @@ Final[0:10]
 
 
 
+API Response:
 
     [{'hopList': [{'hopId': '4999cdf5-e828-4812-b0e6-8974b5771d47',
         'srcDeviceName': 'R20',
