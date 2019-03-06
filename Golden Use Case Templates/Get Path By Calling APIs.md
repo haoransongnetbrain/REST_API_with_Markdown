@@ -26,16 +26,16 @@ The sequencial of provided APIs is also the sequence of our workflow steps.<br>
 > Note: If users try to use this code. please remember to change the "nb_url" to users' own working url.
 
 ***1b. call login API.***<br>
->Same with use case 2, we calling the login API with "username" and "password" as inputs in the first step. As response we can get the authentication token as one fixed input in following APIs calling. If users get errors when calling this API please check the API documentation on [Github_login](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_TEST1_LOGIN_API.ipynb).
+>Same with use case 2, we calling the login API with "username" and "password" as inputs in the first step. As response we can get the authentication token as one fixed input in following APIs calling. If users get errors when calling this API please check the API documentation on [Github_login](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Login%20API.md).
 
 ***1c. call get_all_accessible_tenants API***
->After we got the token from previous section, we need to use this token as a key to find all tenants which we have the access authentication. During this step, the most important feature is to get the tenant id of the corresponding tenant which we decide to work inside. After running this API successfully, we will get the tenantId of the willing tenant which will be set as another input for next step API calling. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_tenant](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_TEST1_Get_All_Asseccible_Tenants_API_Test1%20.ipynb) 
+>After we got the token from previous section, we need to use this token as a key to find all tenants which we have the access authentication. During this step, the most important feature is to get the tenant id of the corresponding tenant which we decide to work inside. After running this API successfully, we will get the tenantId of the willing tenant which will be set as another input for next step API calling. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_tenant](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Tenants%20API.md) 
 
 ***1d. call get_all_accessible_domains API.***
->In this section, we are going to find all accessible domains in the corressponding tenant which we have got the tenantId from previous step. Similar with step 2, during current API call, we have to decide which domain we are going to work inside and get the domainId at meanwhile to prepare for next API calling. If users get errors when calling this API please check the API documentation on [Github_domain](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_Get_all_accessible_domains_of_a_tenant%20_Test1%20.ipynb) 
+>In this section, we are going to find all accessible domains in the corressponding tenant which we have got the tenantId from previous step. Similar with step 2, during current API call, we have to decide which domain we are going to work inside and get the domainId at meanwhile to prepare for next API calling. If users get errors when calling this API please check the API documentation on [Github_domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Domains%20API.md) 
 
 ***1e. call specify_a_working_domain API.***<br>
->After we running this step successfully, we directly complete the full login processes which means we totally join in Netbrain System by calling APIs(because we have record our tenantId and domainId，if users don't know the ID of corresponding tenant and domain please fully follow step 1 to step 4 in use case 1). Next step, we will start to use Netbrain functions formally. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_domain](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_Specify_a_domain_to_work_on_API_Test1%20.ipynb).
+>After we running this step successfully, we directly complete the full login processes which means we totally join in Netbrain System by calling APIs(because we have record our tenantId and domainId，if users don't know the ID of corresponding tenant and domain please fully follow step 1 to step 4 in use case 1). Next step, we will start to use Netbrain functions formally. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_working_domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md).
 
 
 
@@ -85,7 +85,7 @@ token = login(login_URL, body, headers)
 print(token) # print out the authentication token.
 ```
 
-    cc25cbea-d244-494d-b6f9-32937bdadc69
+token output:    cc25cbea-d244-494d-b6f9-32937bdadc69
     
 
 
@@ -117,7 +117,7 @@ tenantId = get_all_accessible_tenants(Accessible_tenants_url, token, headers)
 print(tenantId) # print out the specified tenant id.
 ```
 
-    fb24f3f0-81a7-1929-4b8f-99106c23fa5b
+Tenant ID output:    fb24f3f0-81a7-1929-4b8f-99106c23fa5b
     
 
 
@@ -149,7 +149,7 @@ domainId = get_all_accessible_domains(tenantId, token, headers)
 print(domainId) # Print out the specified domain Id.
 ```
 
-    850ff5e9-c639-404d-85a3-d920dbee509c
+Domain ID output:    850ff5e9-c639-404d-85a3-d920dbee509c
     
 
 
@@ -226,7 +226,7 @@ print("Total Devices Number: " + str(len(devices)))
 devices[0:10]
 ```
 
-    Total Devices Number: 93
+API Response:    Total Devices Number: 93
     
 
 
@@ -309,7 +309,7 @@ print(str(len(ips)))
 ips[0:10]
 ```
 
-    88
+API Response:    88
     
 
 
@@ -361,7 +361,7 @@ print(str(len(results)))
 results[0:10]
 ```
 
-    88
+API Response:    88
     
 
 
@@ -443,7 +443,7 @@ ress
 
 ```
 
-    88
+API Response:    88
     
 
 
@@ -574,6 +574,7 @@ Final[0:10]
 
 
 
+API Response:
 
     [{'hopList': [{'hopId': '4999cdf5-e828-4812-b0e6-8974b5771d47',
         'srcDeviceName': 'R20',
@@ -830,19 +831,19 @@ logout
 ## References:
 > 1) login API:
 
->https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_TEST1_LOGIN_API.ipynb<br> 
+>https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Login%20API.md<br> 
 
 > 2) get_all_accessible_tenants API:
 
->https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_TEST1_Get_All_Asseccible_Tenants_API_Test1%20.ipynb<br>
+>https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Tenants%20API.md<br>
 
 > 3) get_all_accessible_domains API: 
 
->https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_Get_all_accessible_domains_of_a_tenant%20_Test1%20.ipynb<br>
+>https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Domains%20API.md<br>
 
 > 4) specify_a_working_domain API: 
 
->https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_Specify_a_domain_to_work_on_API_Test1%20.ipynb<br>
+>https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md<br>
 
 > 5) get_all_devices API: 
 
