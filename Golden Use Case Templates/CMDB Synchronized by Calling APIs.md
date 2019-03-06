@@ -79,7 +79,7 @@ token = login(login_URL, body, headers)
 print(token) # print out the authentication token.
 ```
 
-    d4c80094-cf9b-424b-9548-fca8050622b2
+API Response:    d4c80094-cf9b-424b-9548-fca8050622b2
     
 
 
@@ -113,7 +113,7 @@ res =  specify_a_working_domain(tenantId, domainId, Specify_a_working_domain_url
 print (res)
 ```
 
-    Working Domain Specified Successfully, with domainId: 850ff5e9-c639-404d-85a3-d920dbee509c
+API Response:     Working Domain Specified Successfully, with domainId: 850ff5e9-c639-404d-85a3-d920dbee509c
     
 
 ## Step 2: Get One-Ip Table of current domain
@@ -149,7 +149,7 @@ print("Total Devices Number: " + str(len(devices)))
 devices[0:10]
 ```
 
-    Total Devices Number: 98
+API Response:     Total Devices Number: 98
     
 
 
@@ -232,7 +232,7 @@ print(str(len(ips)))
 ips[0:10]
 ```
 
-    93
+API Response:     93
     
 
 
@@ -286,7 +286,7 @@ results[0:10]
 
 ```
 
-    93
+API Response:     93
     
 
 
@@ -455,7 +455,7 @@ print(str(len(hostnames)))
 hostnames[0:10]
 ```
 
-    98
+API Response:     98
     
 
 
@@ -499,7 +499,7 @@ resultsHost[0]
 
 ```
 
-    98
+API Response:     98
     
 
 
@@ -576,7 +576,7 @@ res
 
 
 
-    {'statusCode': 790200, 'statusDescription': 'Success.'}
+API Response:     {'statusCode': 790200, 'statusDescription': 'Success.'}
 
 
 
@@ -612,6 +612,7 @@ for i in hostnames:
     print(result)
 
 ```
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
     {'statusCode': 790200, 'statusDescription': 'Success.'}
@@ -727,7 +728,7 @@ resultsHost1[0]
 
 ```
 
-    98
+API Response:     98
     
 
 
@@ -802,7 +803,7 @@ print(str(len(resultsHost2)))
 resultsHost2[0]  
 ```
 
-    98
+API Response:     98
     
 
 
@@ -875,7 +876,7 @@ print(str(len(resS)))
 resS[0]  
 ```
 
-    1
+API Response:     1
     
 
 
