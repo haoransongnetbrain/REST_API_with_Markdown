@@ -29,6 +29,7 @@ Call this API to set a value for the specified attriute of a device.
 |hostname* | string  | The hostname of the device.  |
 
 >**Note:** Applicable Device Attributes
+
 |**Property/Attribute Name**|**Display Name in Device Details Pane**|**Description**|
 |------|------|------|
 |<img width=50/>|<img width=50/>|<img width=300/>|
