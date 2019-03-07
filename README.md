@@ -115,7 +115,7 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 4) Get Device Neighbors by Topology Type API<br>
 5) Get Topology Build Task Status API
 
-### Trigger Diagnosis API
+### [Trigger Diagnosis API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Trigger%20Diagnosis%20API/Trigger%20Diagnosis%20API.md)
 
 ### User Management 
 1) Add User API<br>
