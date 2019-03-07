@@ -36,15 +36,15 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 7) [Get Group Devices API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Group%20Devices%20API.md)<br>
 8) [Set Device Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Set%20Device%20Attribute%20API.md)<br>
 
-### Discovery Task Management 
-1) Add Seed IPs to Discovery Task API<br>
-2) Delete Seed IPs to Discovery Task API<br>
-3) Get All Discovery Tasks API<br>
-4) Get All Seed IPs from Discovery Task API<br>
-5) Get Discovery Task Live Access Log API<br>
-6) Get Discovery Tasks Result API<br>
-7) Get Discovery Tasks Status API<br>
-8) Run Discovery Task Now API
+### [Discovery Task Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Discovery%20Task%20Management) 
+1) [Add Seed IPs to Discovery Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Add%20Seed%20IPs%20to%20Discovery%20Task%20API.md)<br>
+2) [Delete Seed IPs to Discovery Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Delete%20Seed%20IPs%20to%20Discovery%20Task%20API.md)<br>
+3) [Get All Discovery Tasks API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20All%20Discovery%20Tasks%20API.md)<br>
+4) [Get All Seed IPs from Discovery Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20All%20Seed%20IPs%20from%20Discovery%20Task%20API.md)<br>
+5) [Get Discovery Task Live Access Log API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20Discovery%20Task%20Live%20Access%20Log%20API.md)<br>
+6) [Get Discovery Tasks Result API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20Discovery%20Tasks%20Result%20API.md)<br>
+7) [Get Discovery Tasks Status API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20Discovery%20Tasks%20Status%20API.md)<br>
+8) [Run Discovery Task Now API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Run%20Discovery%20Task%20Now%20API.md)
 
 ### Device Interfaces Management 
 1) Create Interface Attribute API<br>
