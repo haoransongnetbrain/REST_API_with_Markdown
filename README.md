@@ -97,16 +97,16 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 13) Replace Site Devices API<br>
 14) Site Transaction Heartbeat API
 
-### Tenants and Domains Management 
-1) Add Domain API<br>
-2) Add Tenant API<br>
-3) Assign Users to Domain API<br>
-4) Assign Users to Tenant API<br>
-5) Delete Domain API<br>
-6) Delete Tenant API<br>
-7) Delete Users from Domain API<br>
-8) Update Domain API<br>
-9) Update Tenant API
+### [Tenants and Domains Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management) 
+1) [Add Domain API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Add%20Domain%20API.md)<br>
+2) [Add Tenant API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Add%20Tenant%20API.md)<br>
+3) [Assign Users to Domain API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Assign%20Users%20to%20Domain%20API.md)<br>
+4) [Assign Users to Tenant API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Assign%20Users%20to%20Tenant%20API.md)<br>
+5) [Delete Domain API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Delete%20Domain%20API.md)<br>
+6) [Delete Tenant API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Delete%20Tenant%20API.md)<br>
+7) [Delete Users from Domain API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Delete%20Users%20from%20Domain%20API.md)<br>
+8) [Update Domain API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Update%20Domain%20API.md)<br>
+9) [Update Tenant API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Tenants%20and%20Domains%20Management/Update%20Tenant%20API.md)
 
 ### [Topology Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Topology%20Management)
 1) [Build L2 Topology API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Build%20L2%20Topology%20API.md)<br>
