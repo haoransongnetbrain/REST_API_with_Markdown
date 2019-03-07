@@ -76,10 +76,10 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 2) [Calculate Path API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Calculate%20Path%20API.md)<br>
 3) [Get Path Calculation Result API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Get%20Path%20Calculation%20Result%20API.md)
 
-### User Roles Management 
-1) Add Role API<br>
-2) Delete Role API<br>
-3) Update Role API
+### [User Roles Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/User%20Roles%20Management)
+1) [Add Role API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Roles%20Management/Add%20Role%20API.md)<br>
+2) [Delete Role API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Roles%20Management/Delete%20Role%20API.md)<br>
+3) [Update Role API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Roles%20Management/Update%20Role%20API.md)
 
 ### Site Management 
 1) Add Site Devices API<br>
