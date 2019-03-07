@@ -66,10 +66,10 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 5) [Get Module Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Get%20Module%20Attributes%20API.md)<br>
 6) [Set Module Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Set%20Module%20Attributes%20API.md)
 
-### Network Setting 
-1) Add Network Settings API<br>
-2) Delete Network Settings API<br>
-3) update Network Settings API
+### [Network Setting](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Network%20Setting) 
+1) [Add Network Settings API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Network%20Setting/Add%20Network%20Settings%20API.md)<br>
+2) [Delete Network Settings API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Network%20Setting/Delete%20Network%20Settings%20API.md)<br>
+3) [Update Network Settings API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Network%20Setting/Update%20Network%20Settings%20API.md)
 
 ### Path Management 
 1) Resolve Device Gateway API<br>
