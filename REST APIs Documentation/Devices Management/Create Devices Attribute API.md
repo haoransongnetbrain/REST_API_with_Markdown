@@ -227,14 +227,3 @@ Response:
         
 ```
 
-
-```python
-'''
-Some Issues:
-
-1) Success response too simple.
-
-2) Same attribute can be created multiplely, only with different name. Not efficency.
-
-'''
-```
