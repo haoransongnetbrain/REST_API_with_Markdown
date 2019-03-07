@@ -58,13 +58,13 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 1) [Delete Map API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Map%20Management/Delete%20Map%20API.md)<br>
 2) [Export Map API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Map%20Management/Export%20Map%20API.md)
 
-### Module Management  
-1) Applicable Module Attributes Table<br>
-2) Create Module Attribute API<br>
-3) Delete Module Attribute API<br>
-4) Get All Modules of A Device API<br>
-5) Get Module Attributes API<br>
-6) Set Module Attributes API
+### [Module Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Module%20Management)  
+1) [Applicable Module Attributes Table](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Applicable%20Module%20Attributes%20Table.md)<br>
+2) [Create Module Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Create%20Module%20Attribute%20API.md)<br>
+3) [Delete Module Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Delete%20Module%20Attribute%20API.md)<br>
+4) [Get All Modules of A Device API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Get%20All%20Modules%20of%20A%20Device%20API.md)<br>
+5) [Get Module Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Get%20Module%20Attributes%20API.md)<br>
+6) [Set Module Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Module%20Management/Set%20Module%20Attributes%20API.md)
 
 ### Network Setting 
 1) Add Network Settings API<br>
