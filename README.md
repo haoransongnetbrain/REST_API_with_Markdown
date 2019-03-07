@@ -54,9 +54,9 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 5) Get Interface Attributes API <br>
 6) Set Interface Attributes API 
 
-### Map Management 
-1) Delete Map API<br>
-2) Export Map API
+### [Map Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Map%20Management) 
+1) [Delete Map API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Map%20Management/Delete%20Map%20API.md)<br>
+2) [Export Map API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Map%20Management/Export%20Map%20API.md)
 
 ### Module Management  
 1) Applicable Module Attributes Table<br>
