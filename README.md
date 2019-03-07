@@ -18,13 +18,13 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 4) [Specify A Working Domain API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md)<br>
 5) [Logout API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Logout%20API.md)
 
-### Benchmark Task Management 
-1) Add Benchmark Task API<br>
-2) Delete Benchmark Task API<br>
-3) Get Benchmark Task Runs API<br>
-4) Get Benchmark Task Status API<br>
-5) Run Benchmark Task Now API<br>
-6) Update Benchmark Task API
+### [Benchmark Task Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management)
+1) [Add Benchmark Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Add%20Benchmark%20Task%20API.md)<br>
+2) [Delete Benchmark Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Delete%20Benchmark%20Task%20API.md)<br>
+3) [Get Benchmark Task Runs API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Get%20Benchmark%20Task%20Runs%20API.md)<br>
+4) [Get Benchmark Task Status API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Get%20Benchmark%20Task%20Status%20API.md)<br>
+5) [Run Benchmark Task Now API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Run%20Benchmark%20Task%20Now%20API.md)<br>
+6) [Update Benchmark Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Update%20Benchmark%20Task%20API.md)
 
 ### Devices Management 
 1) Create Devices Attribute API<br>
