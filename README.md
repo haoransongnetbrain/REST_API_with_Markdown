@@ -71,10 +71,10 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 2) [Delete Network Settings API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Network%20Setting/Delete%20Network%20Settings%20API.md)<br>
 3) [Update Network Settings API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Network%20Setting/Update%20Network%20Settings%20API.md)
 
-### Path Management 
-1) Resolve Device Gateway API<br>
-2) Calculate Path API<br>
-3) Get Path Calculation Result API
+### [Path Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Path%20Management)
+1) [Resolve Device Gateway API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Resolve%20Device%20Gateway%20API.md)<br>
+2) [Calculate Path API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Calculate%20Path%20API.md)<br>
+3) [Get Path Calculation Result API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Get%20Path%20Calculation%20Result%20API.md)
 
 ### User Roles Management 
 1) Add Role API<br>
