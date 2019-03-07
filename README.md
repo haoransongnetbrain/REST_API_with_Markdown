@@ -50,7 +50,7 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 1) [Create Interface Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Create%20Interface%20Attribute%20API.md)<br>
 2) [Delete Interface Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Delete%20Interface%20Attribute%20API.md)<br>
 3) [Get All Interfaces of A Device API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Get%20All%20Interfaces%20of%20A%20Device%20API.md)<br>
-4) Get Connected Switch Port API<br>
+4) [Get Connected Switch Port API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Get%20Connected%20Switch%20Port%20API.md)<br>
 5) [Get Interface Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Get%20Interface%20Attributes%20API.md)<br>
 6) [Set Interface Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Set%20Interface%20Attributes%20API.md) 
 
@@ -108,12 +108,12 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 8) Update Domain API<br>
 9) Update Tenant API
 
-### Topology Management
-1) Build L2 Topology API<br>
-2) Build L3 Topology API<br>
-3) Get Connected Switch Port API<br>
-4) Get Device Neighbors by Topology Type API<br>
-5) Get Topology Build Task Status API
+### [Topology Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Topology%20Management)
+1) [Build L2 Topology API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Build%20L2%20Topology%20API.md)<br>
+2) [Build L3 Topology API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Build%20L3%20Topology%20API.md)<br>
+3) [Get Connected Switch Port API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Get%20Connected%20Switch%20Port%20API.md)<br>
+4) [Get Device Neighbors by Topology Type API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Get%20Device%20Neighbors%20by%20Topology%20Type%20API.md)<br>
+5) [Get Topology Build Task Status API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Get%20Topology%20Build%20Task%20Status%20API.md)
 
 ### [Trigger Diagnosis API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Trigger%20Diagnosis%20API/Trigger%20Diagnosis%20API.md)
 
