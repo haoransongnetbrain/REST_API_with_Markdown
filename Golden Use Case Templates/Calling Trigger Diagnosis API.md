@@ -74,7 +74,7 @@ token = login(login_URL, body, headers)
 print(token) # print out the authentication token.
 ```
 
-    e85a53f1-5741-4d3d-9200-e1473c5453a4
+API Response:     e85a53f1-5741-4d3d-9200-e1473c5453a4
     
 
 
@@ -108,7 +108,7 @@ res =  specify_a_working_domain(tenantId, domainId, Specify_a_working_domain_url
 print (res)
 ```
 
-    Working Domain Specified Successfully, with domainId: 850ff5e9-c639-404d-85a3-d920dbee509c
+API Response:     Working Domain Specified Successfully, with domainId: 850ff5e9-c639-404d-85a3-d920dbee509c
     
 
 ## Step 2: Calling Trigger Diagnosis API 
@@ -178,7 +178,7 @@ result
 ```
 
 
-
+API Response: 
 
     {'mapId': 'e7343091-c01a-40c9-9e33-bb066bb9d7f8',
      'mapName': 'stubTest1-20190222154255',
@@ -216,7 +216,7 @@ result1 = trigger_default_map(trigger_url, headers, API_Body1, token)
 result1
 ```
 
-
+API Response: 
 
 
     {'mapId': 'e762eaa7-507f-4c02-9d40-c616f6d64702',
@@ -259,7 +259,7 @@ result2 = trigger_default_map(trigger_url, headers, API_Body2, token)
 result2
 ```
 
-
+API Response: 
 
 
     {'mapId': 'f881543a-a631-45cb-8778-840f33a9341c',
@@ -325,7 +325,7 @@ result3 = trigger_default_map(trigger_url, headers, API_Body3, token)
 result3
 ```
 
-
+API Response: 
 
 
     {'mapId': '2a46013a-f913-4865-9f6c-bf8a77636f54',
@@ -364,7 +364,7 @@ logout
 ```
 
 
-
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
 

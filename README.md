@@ -3,20 +3,20 @@
 Netbrain provide all available REST APIs in this repository. We offer two sections in current repo. First section describe the workflow of five customer use cases with API multiple calling. Second section elaborate the detail information for each API. We provide resonable explanations and clear sample code in both sections. We hope users can understand the different features of different APIs and construct a concept to solve some use cases by multi-calling Netbrain REST APIs.  
 
 ## Section 1) Golden Use Case Templates
-1) Get Path By Calling APIs<br>
-2) Sites Management by Calling APIs<br>
-3) Calling Trigger Diagnosis API<br>
-4) Discovery and Devices Management by Calling APIs<br>
-5) CMDB Synchronized by Calling APIs
+1) [Get Path By Calling APIs](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Get%20Path%20By%20Calling%20APIs.md)<br>
+2) [Sites Management by Calling APIs](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Sites%20Management%20by%20Calling%20APIs.md)<br>
+3) [Calling Trigger Diagnosis API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Calling%20Trigger%20Diagnosis%20API.md)<br>
+4) [Discovery and Devices Management by Calling APIs](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Discovery%20and%20Devices%20Management%20by%20Calling%20APIs.md)<br>
+5) [CMDB Synchronized by Calling APIs](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/CMDB%20Synchronized%20by%20Calling%20APIs.md)
 
 ## Section 2) REST APIs Documentation
 
-### Athentication and Authorization
-1) Login API<br>
-2) Get All Accessible Tenants API<br>
-3) Get All Accessible Domains API<br>
-4) Specify A Working Domain API<br>
-5) Logout API
+### [Athentication and Authorization](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization)
+1) [Login API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Login%20API.md)<br>
+2) [Get All Accessible Tenants API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Tenants%20API.md)<br>
+3) [Get All Accessible Domains API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Domains%20API.md)<br>
+4) [Specify A Working Domain API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md)<br>
+5) [Logout API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Logout%20API.md)
 
 ### Benchmark Task Management 
 1) Add Benchmark Task API<br>

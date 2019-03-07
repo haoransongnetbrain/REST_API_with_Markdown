@@ -86,7 +86,7 @@ token = login(login_URL, body, headers)
 print(token) # print out the authentication token.
 ```
 
-    aeada487-9cbf-4459-8796-3845feaf65af
+API Response:     aeada487-9cbf-4459-8796-3845feaf65af
     
 
 
@@ -120,7 +120,7 @@ res =  specify_a_working_domain(tenant_id, domain_id, Specify_a_working_domain_u
 print (res)
 ```
 
-    Working Domain Specified Successfully, with domainId: 850ff5e9-c639-404d-85a3-d920dbee509c
+API Response:     Working Domain Specified Successfully, with domainId: 850ff5e9-c639-404d-85a3-d920dbee509c
     
 
 ## Step 2: Specify discovery task can be used and check task status.
@@ -161,7 +161,7 @@ taskId
 
 
 
-    '1227fb4f-356d-76c8-d140-04d34ffaf79a'
+API Response:     '1227fb4f-356d-76c8-d140-04d34ffaf79a'
 
 
 
@@ -203,7 +203,7 @@ status
 
 
 
-    'Task Status: Succeeded with warnings'
+API Response:     'Task Status: Succeeded with warnings'
 
 
 
@@ -263,7 +263,7 @@ result
 ```
 
 
-
+API Response: 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
 
@@ -292,7 +292,7 @@ result = get_all_seed_Ips_from_discovery(get_all_seed_Ips_from_discovery_url, he
 result 
 ```
 
-
+API Response: 
 
 
     ['10.1.13.2',
@@ -339,7 +339,7 @@ result = delete_seed_Ips_to_discovery(delete_seed_Ips_to_discovery_url, headers,
 result
 ```
 
-
+API Response: 
 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
@@ -352,7 +352,7 @@ result = get_all_seed_Ips_from_discovery(get_all_seed_Ips_from_discovery_url, he
 result 
 ```
 
-
+API Response: 
 
 
     ['10.1.13.2',
@@ -402,7 +402,7 @@ result = run_discovery_task_now(run_discovery_task_now_url, headers, token)
 result
 ```
 
-
+API Response: 
 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
@@ -434,7 +434,7 @@ result = get_discovery_tasks_result(get_discovery_tasks_result_url, headers, tok
 result
 ```
 
-
+API Response: 
 
 
     {'devices': [{'mgmtIP': '123.204.4.4',
@@ -492,7 +492,7 @@ status = get_discovery_task_status(get_discovery_task_status_url, headers, token
 status
 ```
 
-
+API Response: 
 
 
     'Task Status: Succeeded with warnings'
@@ -523,7 +523,7 @@ result = get_discovery_live_access_log(get_discovery_live_access_log_url, header
 result
 ```
 
-
+API Response: 
 
 
     {'liveLogs': [{'mgmtIP': '123.204.4.4',
@@ -566,7 +566,7 @@ logout = logout(Logout_url, token, headers)
 logout
 ```
 
-
+API Response: 
 
 
     'Session logout failed! - {"statusCode":795010,"statusDescription":"Session not exist"}'
