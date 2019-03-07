@@ -26,15 +26,15 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 5) [Run Benchmark Task Now API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Run%20Benchmark%20Task%20Now%20API.md)<br>
 6) [Update Benchmark Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Benchmark%20Task%20Management/Update%20Benchmark%20Task%20API.md)
 
-### Devices Management 
-1) Create Devices Attribute API<br>
-2) Delete Devices Attribute API<br>
-3) Delete Devices API<br>
-4) Get Device Attributes API<br>
-5) Get Device API<br>
-6) Get Front Server of A Device API<br>
-7) Get Group Devices API<br>
-8) Set Device Attribute API<br>
+### [Devices Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Devices%20Management)
+1) [Create Devices Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Create%20Devices%20Attribute%20API.md)<br>
+2) [Delete Devices Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Delete%20Devices%20Attribute%20API.md)<br>
+3) [Delete Devices API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Delete%20Devices%20API.md)<br>
+4) [Get Device Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20Attributes%20API.md)<br>
+5) [Get Device API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20API.md)<br>
+6) [Get Front Server of A Device API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Front%20Server%20of%20A%20Device%20API.md)<br>
+7) [Get Group Devices API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Group%20Devices%20API.md)<br>
+8) [Set Device Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Set%20Device%20Attribute%20API.md)<br>
 
 ### Discovery Task Management 
 1) Add Seed IPs to Discovery Task API<br>
