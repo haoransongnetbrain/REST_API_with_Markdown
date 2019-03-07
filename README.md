@@ -46,13 +46,13 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 7) [Get Discovery Tasks Status API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20Discovery%20Tasks%20Status%20API.md)<br>
 8) [Run Discovery Task Now API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Run%20Discovery%20Task%20Now%20API.md)
 
-### Device Interfaces Management 
-1) Create Interface Attribute API<br>
-2) Delete Interface Attribute API<br>
-3) Get All Interfaces of A Device API<br>
+### [Device Interfaces Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management) 
+1) [Create Interface Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Create%20Interface%20Attribute%20API.md)<br>
+2) [Delete Interface Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Delete%20Interface%20Attribute%20API.md)<br>
+3) [Get All Interfaces of A Device API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Get%20All%20Interfaces%20of%20A%20Device%20API.md)<br>
 4) Get Connected Switch Port API<br>
-5) Get Interface Attributes API <br>
-6) Set Interface Attributes API 
+5) [Get Interface Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Get%20Interface%20Attributes%20API.md)<br>
+6) [Set Interface Attributes API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Set%20Interface%20Attributes%20API.md) 
 
 ### [Map Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Map%20Management) 
 1) [Delete Map API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Map%20Management/Delete%20Map%20API.md)<br>
