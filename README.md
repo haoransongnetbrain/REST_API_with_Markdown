@@ -120,14 +120,18 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 6) [Get One Ip Table API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Get%20One%20Ip-Table%20API.md)
 
 ### [Trigger Diagnosis API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Trigger%20Diagnosis%20API/Trigger%20Diagnosis%20API.md)
+1) Map Device and Its Neighbors
+2) Open Site Map of The Device
+3) Trigger An Existing Map
+4) Map A Path
 
 ### [User Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/User%20Management)
 1) [Add User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Add%20User%20API.md)<br>
 2) [Delete User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Delete%20User%20API.md)<br>
 3) [Get Usage Report of Users API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Get%20Usage%20Report%20of%20Users%20API.md)<br>
 4) [Get Detail Usage Report of Users API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Get%20Detail%20Usage%20Report%20of%20Users%20API.md)<br>
-5) [Update User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Update%20User%20API.md)
-
+5) [Update User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Update%20User%20API.md)<br>
+6) [Get Users API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Get%20Users%20API.md)
 
 
 
