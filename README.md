@@ -126,8 +126,8 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 2) [Delete User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Delete%20User%20API.md)<br>
 3) [Get Usage Report of Users API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Get%20Usage%20Report%20of%20Users%20API.md)<br>
 4) [Get Detail Usage Report of Users API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Get%20Detail%20Usage%20Report%20of%20Users%20API.md)<br>
-5) [Update User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Update%20User%20API.md)
-
+5) [Update User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Update%20User%20API.md)<br>
+6) [Get Users API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Get%20Users%20API.md)
 
 
 
