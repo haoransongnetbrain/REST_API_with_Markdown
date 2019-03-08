@@ -19,7 +19,7 @@ a. Get Authentication Token and Specify Working Domain.
 >3. [Get all accessible domains of a tenant](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Domains%20API.md) <br>
 >4. [Specify a working domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md)
 
-b. Get Specified Device Information and Calculate Path. 
+b. Get Specified Network Information and Calculate Path. 
 >4. [Get child sites of a specific site](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Site%20Management/Get%20Child%20Site%20API.md) <br>
 >5. [Get device group list](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20Group%20API.md) <br>
 >6. [Calculate a Path](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Calculate%20Path%20API.md) <br>
