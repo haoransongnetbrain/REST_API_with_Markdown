@@ -161,6 +161,7 @@ print("Domain ID: "+domainId) # Print out the specified domain Id.
 print (res) # confirm user get in the correct domain
 
 ```
+API Response:
 
     Token: 6c93fb12-afd0-41de-b557-5491c4fc0a1d
     Tenant ID: fb24f3f0-81a7-1929-4b8f-99106c23fa5b
@@ -279,6 +280,8 @@ siteInformation
 ```
 
 
+API Response:
+
 
 
     [{'siteId': '37965f93-377c-46b9-852c-193870bb5933',
@@ -330,6 +333,8 @@ groupList
 ```
 
 
+API Response:
+
 
 
     [{'id': 'a2576703-08f6-4a1e-bd38-c03f36e962d1',
@@ -370,6 +375,8 @@ devicesList = Get_group_devices(Get_group_devices_url, headers, token)
 devicesList
 ```
 
+API Response:
+
 
 
 
@@ -406,6 +413,8 @@ IPList =  helper(devicesList)
 IPList
 ```
 
+API Response:
+
 
 
 
@@ -421,6 +430,8 @@ for i in IPList:
     results.append(result)
 results
 ```
+
+API Response:
 
 
 
@@ -492,6 +503,8 @@ for i in range(len(results)):
 ress
 ```
 
+API Response:
+
 
 
 
@@ -536,6 +549,8 @@ for i in range(len(ress)):
     
 Final
 ```
+
+API Response:
 
 
 
@@ -715,6 +730,7 @@ folderInfo
 ```
 
 
+API Response:
 
 
     "Invalid URL '<function Get_file_list_url at 0x000002A7781EF488>': No schema supplied. Perhaps you meant http://<function Get_file_list_url at 0x000002A7781EF488>?"
@@ -748,7 +764,7 @@ logout = logout(Logout_url, token, headers)
 logout
 ```
 
-
+API Response:
 
 
     {'statusCode': 790200, 'statusDescription': 'Success.'}
