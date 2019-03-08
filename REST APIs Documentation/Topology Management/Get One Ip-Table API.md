@@ -1,5 +1,5 @@
 
-# One Ip-Table API Design
+# One Ip Table API Design
 
 ## ***GET*** /V1/CMDB/Topology/OneIPTable{?Ip}&{?beginIndex}&{?count}
 Calling this API to get the One-IP Table.
