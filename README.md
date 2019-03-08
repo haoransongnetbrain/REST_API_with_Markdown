@@ -81,6 +81,8 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 1) [Add Role API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Roles%20Management/Add%20Role%20API.md)<br>
 2) [Delete Role API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Roles%20Management/Delete%20Role%20API.md)<br>
 3) [Update Role API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Roles%20Management/Update%20Role%20API.md)
+4) [Get Role Information API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Roles%20Management/Get%20Role%20Information%20API.md)
+
 
 ### [Site Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Site%20Management) 
 1) [Add Site Devices API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Site%20Management/Add%20Site%20Devices%20API.md)<br>
