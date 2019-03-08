@@ -25,10 +25,10 @@ During current use case, we are going to output One-Ip table of current domain d
 > Note: If users try to use this code. please remember to change the "nb_url" to users' own working url.
 
 ***1b. call login API***
->In step 1, we calling the login API with "username" and "password" as inputs. As response we can get the authentication token as one fixed input in following APIs calling. If users get errors when calling this API please check the API documentation on [Github_login](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_TEST1_LOGIN_API.ipynb) 
+>In step 1, we calling the login API with "username" and "password" as inputs. As response we can get the authentication token as one fixed input in following APIs calling. If users get errors when calling this API please check the API documentation on [Github_login](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Login%20API.md) 
 
 ***1c. call specify_a_working_domain API***
->After we running this step successfully, we directly complete the full login processes which means we totally join in Netbrain System by calling APIs(because we have record our tenantId and domainId，if users don't know the ID of corresponding tenant and domain please fully follow step 1 to step 4 in use case 1). Next step, we will start to use Netbrain functions formally. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_domain](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_Specify_a_domain_to_work_on_API_Test1%20.ipynb) 
+>After we running this step successfully, we directly complete the full login processes which means we totally join in Netbrain System by calling APIs(because we have record our tenantId and domainId，if users don't know the ID of corresponding tenant and domain please fully follow step 1 to step 4 in use case 1). Next step, we will start to use Netbrain functions formally. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md) 
 
 
 ```python
@@ -119,10 +119,10 @@ API Response:     Working Domain Specified Successfully, with domainId: 850ff5e9
 ## Step 2: Get One-Ip Table of current domain
 ***2a. call get_all_devices API***
 >In this use case, we are going to get One-Ip Table, devices details and interface information. So the precondition of calling path APIs is the information of devices. In current section, after we calling this Api successfully, we will get information of all devices in current domain. As following, I provide a sub-section as a helper to filt information, because after calling get all devices API we will get a json file from API response, it 's include device id, device management ip, device hostname and some other information. But we only need the managment Ip as input for next section. Thus, we provide a small funtion to filt out the "mgmIp" from json file.
-If users get errors when calling this API please check the API documentation on [Github_devices](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Device%20API%20Design/STANDARD_formate_Get_Devices_API_Test.ipynb) 
+If users get errors when calling this API please check the API documentation on [Github_devices](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20API.md) 
 
 ***2b. call get_one_ip_table API***
->After we got all devices management IP from step 5, we can calling the Get One-Ip table API. During this step, we totally call twice of corresponding API, first calling we loop all devices in current domian with full input parameters provided, second call we only provide the "beginIndex" and "count" parameters. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_One-Ip_Table](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Overall%20Plan%EF%BC%88Northbound%20API%EF%BC%89/STANDARD_formate_GEt_One_Ip_Table_API_Test1%20.ipynb) 
+>After we got all devices management IP from step 5, we can calling the Get One-Ip table API. During this step, we totally call twice of corresponding API, first calling we loop all devices in current domian with full input parameters provided, second call we only provide the "beginIndex" and "count" parameters. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_One-Ip_Table](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Topology%20Management/Get%20One%20Ip-Table%20API.md) 
 
 
 ```python
@@ -433,13 +433,13 @@ API Response:     93
 
 ## Step 3: Modify devices attributes of current domain
 ***3a. call get_devices_attribute API***
-> Call this API to get the value for an attribute of a device, get all attributes if attribute name is not specifed. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_get_devices_attribute](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Device%20API%20Design/STANDARD_formate_Get_Device_Attribute(s)_API_Test.ipynb) 
+> Call this API to get the value for an attribute of a device, get all attributes if attribute name is not specifed. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_get_devices_attribute](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20Attributes%20API.md) 
 
 ***3b. call create_devices_attribute API***
->Call this API to create a customized attribute for certain device types. User can use the SetDeviceAttribute API to set a value for the created attribute. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_create_devices_attribute](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Device%20API%20Design/STANDARD_formate_Create_Devices_Attribute_API_Test.ipynb) 
+>Call this API to create a customized attribute for certain device types. User can use the SetDeviceAttribute API to set a value for the created attribute. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_create_devices_attribute](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Create%20Devices%20Attribute%20API.md) 
 
 ***3c. call set_devices_attribute API***
->Call this API to set a value for the specified attriute of a device. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_set_devices_attribute](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Device%20API%20Design/STANDARD_formate_Set_Devices_Attribute_API_Test.ipynb)
+>Call this API to set a value for the specified attriute of a device. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_set_devices_attribute](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Set%20Device%20Attribute%20API.md)
 
 
 ```python
@@ -766,10 +766,10 @@ API Response:     98
 
 ## Step 4: Retrieve interface attributes of current domain
 ***4a. call get_all_interfaces_of_devices API***
->Call this API to get all interfaces of one device which specified by hostname. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_get_all_interfaces_of_devices](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Interface%20API%20Design/STANDARD_formate_Get_All_Interfaces_of_a_Device_API_Test.ipynb)
+>Call this API to get all interfaces of one device which specified by hostname. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_get_all_interfaces_of_devices](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Get%20All%20Interfaces%20of%20A%20Device%20API.md)
 
 ***4b. call get_interfaces_attributes API***
->Call this API to get the value for a specified attribute of a device interface, get all attributes if the attribute name is not specifed. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_get_interfaces_attributes](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Interface%20API%20Design/STANDARD_formate_Get_Interface_Attribute(s)_API_Test.ipynb)
+>Call this API to get the value for a specified attribute of a device interface, get all attributes if the attribute name is not specifed. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_get_interfaces_attributes](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Device%20Interfaces%20Management/Get%20Interface%20Attributes%20API.md)
 
 
 ```python
