@@ -1,5 +1,5 @@
 
-# Logic of API Calling for Embed Map
+# Logic of API Calling for Embeded Map
 Many service providers and large enterprises benefit from their powerful web portals which offer seamless integrations with various well-established network management systems. NetBrain Embedded Map is a technology offered by NetBrain, which integrates a highly dynamic and easily deployable network map into client web portal by providing them with a set of pre-defined iframes and API endpoints.
 
 User can choose either of the following ways to consume NetBrain Embedded Map technology:<br>
