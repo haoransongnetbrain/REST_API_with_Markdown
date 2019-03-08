@@ -12,7 +12,7 @@ User can choose either of the following ways to consume NetBrain Embedded Map te
 ## Web server configuration and UI preparation 
 Please check the detail information in [reference](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/v3_NetBrain_Embedded_Map_Quick_Start_Guide.pdf)
 
-## Sequence of REST API callings
+## Relative REST API callings
 a. Get Authentication Token and Specify Working Domain.
 >1. [Login](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Login%20API.md) <br>
 >2. [Get all accessible tenants](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Tenants%20API.md) <br>
