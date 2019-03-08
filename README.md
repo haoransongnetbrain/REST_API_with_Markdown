@@ -8,6 +8,7 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 3) [Calling Trigger Diagnosis API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Calling%20Trigger%20Diagnosis%20API.md)<br>
 4) [Discovery and Devices Management by Calling APIs](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Discovery%20and%20Devices%20Management%20by%20Calling%20APIs.md)<br>
 5) [CMDB Synchronized by Calling APIs](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/CMDB%20Synchronized%20by%20Calling%20APIs.md)
+6) [Logic of API Calling for Embed Map](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Logic%20of%20API%20Calling%20for%20Embed%20Map.md)
 
 ## Section 2) REST APIs Documentation
 
