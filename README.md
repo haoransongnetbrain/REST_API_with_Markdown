@@ -35,6 +35,7 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 6) [Get Front Server of A Device API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Front%20Server%20of%20A%20Device%20API.md)<br>
 7) [Get Group Devices API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Group%20Devices%20API.md)<br>
 8) [Set Device Attribute API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Set%20Device%20Attribute%20API.md)<br>
+9) [Get Device Configuration API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20Configration%20API.md)<br>
 
 ### [Discovery Task Management](https://github.com/Gongdai/REST_API_with_Markdown/tree/master/REST%20APIs%20Documentation/Discovery%20Task%20Management) 
 1) [Add Seed IPs to Discovery Task API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Discovery%20Task%20Management/Add%20Seed%20IPs%20to%20Discovery%20Task%20API.md)<br>
