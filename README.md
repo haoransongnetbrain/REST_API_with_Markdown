@@ -134,6 +134,7 @@ Netbrain provide all available REST APIs in this repository. We offer two sectio
 5) [Update User API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Update%20User%20API.md)<br>
 6) [Get Users API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/User%20Management/Get%20Users%20API.md)
 
+[Get Files List API](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Get%20file%20list%20API.md)
 
 
 ```python
