@@ -26,7 +26,7 @@ b. Get Specified Network Information and Calculate Path.
 >7. [Get the gateway information of a device](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Resolve%20Device%20Gateway%20API.md) <br>
 >8. [Get path calculation status]() <br>
 >9. [Get path calculation result](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Get%20Path%20Calculation%20Result%20API.md) <br>
->10. [Get file list](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Golden%20Use%20Case%20Templates/Logic%20of%20API%20Calling%20for%20Embed%20Map.md)
+>10. [Get file list](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Get%20file%20list%20API.md)
 
 c. Finish All Callings and Logout Netbrain 
 >11. [Stop a path](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Golden%20Use%20Case%20Templates/Logic%20of%20API%20Calling%20for%20Embed%20Map.md) 
