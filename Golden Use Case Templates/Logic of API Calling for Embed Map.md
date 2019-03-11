@@ -29,7 +29,7 @@ b. Get Specified Network Information and Calculate Path.
 >10. [Get file list](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Get%20file%20list%20API.md)
 
 c. Finish All Callings and Logout Netbrain 
->11. [Stop a path](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Golden%20Use%20Case%20Templates/Logic%20of%20API%20Calling%20for%20Embed%20Map.md) 
+>11. [Stop a path](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Path%20Management/Stop%20A%20Path%20API.md) 
 >12. [Logout](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Logout%20API.md)
 
 ### More further details required, please check the detail information in [reference](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/v3_NetBrain_Embedded_Map_Quick_Start_Guide.pdf)
