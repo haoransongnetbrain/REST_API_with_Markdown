@@ -323,14 +323,63 @@ final
 
 API Response:
 
-    {'hopList': [{'hopId': 'd30ddea5-c73b-4ead-8615-278baf2cfa88',
-        'srcDeviceName': 'R2','inboundInterface': 'Ethernet0/1',
-        'mediaName': '123.10.1.8/30',
-        'dstDeviceName': 'R3',
-        'outboundInterface': 'Ethernet0/1',
-        'nextHopIdList': []}],
-     'statusCode': 790200,
-     'statusDescription': 'Success.'}
+    {
+    "hopList": [
+        {
+            "hopId": "01383651-8bec-41fd-bea2-c3a673ac394c",
+            "srcDeviceName": "R5",
+            "inboundInterface": "Ethernet0/0",
+            "mediaName": "123.10.1.12/30",
+            "dstDeviceName": "R3",
+            "outboundInterface": "Ethernet0/2",
+            "nextHopIdList": [
+                "5775d104-f2e7-409d-92f5-8e6b1ed9594a"
+            ]
+        },
+        {
+            "hopId": "5775d104-f2e7-409d-92f5-8e6b1ed9594a",
+            "srcDeviceName": "R3",
+            "inboundInterface": "Ethernet0/1",
+            "mediaName": "123.10.1.8/30",
+            "dstDeviceName": "R2",
+            "outboundInterface": "Ethernet0/1",
+            "nextHopIdList": [
+                "3f28a2db-fd15-4f3c-b4ab-de7cc2d7cad9"
+            ]
+        },
+        {
+            "hopId": "3f28a2db-fd15-4f3c-b4ab-de7cc2d7cad9",
+            "srcDeviceName": "R2",
+            "inboundInterface": "Ethernet0/2",
+            "mediaName": "123.10.1.16/30",
+            "dstDeviceName": "R4",
+            "outboundInterface": "Ethernet0/0",
+            "nextHopIdList": []
+        },
+        {
+            "hopId": "b4b4ddc7-02c5-41bd-b0d3-a7e72d3100e9",
+            "srcDeviceName": "R5",
+            "inboundInterface": "Ethernet0/1",
+            "mediaName": "123.10.1.4/30",
+            "dstDeviceName": "R1",
+            "outboundInterface": "Ethernet0/1",
+            "nextHopIdList": [
+                "3e4b6c71-8e6e-4845-b6c3-acdca0ac7377"
+            ]
+        },
+        {
+            "hopId": "3e4b6c71-8e6e-4845-b6c3-acdca0ac7377",
+            "srcDeviceName": "R1",
+            "inboundInterface": "Ethernet0/2",
+            "mediaName": "123.10.1.0/30",
+            "dstDeviceName": "R4",
+            "outboundInterface": "Ethernet0/1",
+            "nextHopIdList": []
+        }
+    ],
+    "statusCode": 790200,
+    "statusDescription": "Success."
+}
 
 
 From the final result, we can see the task is success. And as a clarification, if users get the taskId from previous successfully, that is not means the path is exist during gateway pairs. 
