@@ -53,8 +53,8 @@ TenantName = "Initial Tenant"
 DomainName = "Support and Service"
 username = "gdluserTest"
 password = "123456"
-source_device = "R2"
-destination_device = "R3"
+source_device = "R4"
+destination_device = "R5"
 ```
 
 
@@ -236,8 +236,8 @@ print(destination_gateway)
 
 API Response:    
 
-    {'gatewayList': [{'ip': '123.10.1.17', 'devName': 'R2', 'intfName': 'Ethernet0/2'}], 'statusCode': 790200, 'statusDescription': 'Success.'}
-    {'gatewayList': [{'ip': '123.10.1.10', 'devName': 'R3', 'intfName': 'Ethernet0/1'}], 'statusCode': 790200, 'statusDescription': 'Success.'}
+    {'gatewayList': [{'ip': '123.10.1.17', 'devName': 'R4', 'intfName': 'Ethernet0/2'}], 'statusCode': 790200, 'statusDescription': 'Success.'}
+    {'gatewayList': [{'ip': '123.10.1.10', 'devName': 'R5', 'intfName': 'Ethernet0/1'}], 'statusCode': 790200, 'statusDescription': 'Success.'}
 
 ```python
 # call calculate_path API
