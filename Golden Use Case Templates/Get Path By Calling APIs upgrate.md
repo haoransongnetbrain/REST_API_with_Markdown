@@ -19,31 +19,31 @@ The sequencial of provided APIs is also the sequence of our workflow steps.
 ***Note***: if users want to find the path results of devices, then the step sequence must be followed. If users call these APIs with a different sequential then there would be no results or some errors would be occured.
 
 ## Step Explanation
-***1. import all useful modules and create global variables***<br>
+***1. Import python modules and global variables for sample code***<br>
 > Note: If users try to use this code. please remember to change the "nb_url" to users' own working url.
 
-***2. call login API***<br>
+***2. Call login API to get authentication token***<br>
 >We calling the login API with "username" and "password" as inputs in the first step. As response we can get the authentication token as one fixed input in following APIs calling. If users get errors when calling this API please check the API documentation on [Github_login](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Login%20API.md).
 
-***3. call get_all_accessible_tenants API***
+***3. Call get_all_accessible_tenants API to get all accessible tenant IDs***
 >After we got the token from previous section, we need to use this token as a key to find all tenants which we have the access authentication. During this step, the most important feature is to get the tenant id of the corresponding tenant which we decide to work inside. After running this API successfully, we will get the tenantId of the willing tenant which will be set as another input for next step API calling. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_tenant](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Tenants%20API.md) 
 
-***4. call get_all_accessible_domains API***
+***4. Call get_all_accessible_domains API to get all accessible domain IDs in specified tenant***
 >In this section, we are going to find all accessible domains in the corressponding tenant which we have got the tenantId from previous step. Similar with step 2, during current API call, we have to decide which domain we are going to work inside and get the domainId at meanwhile to prepare for next API calling. If users get errors when calling this API please check the API documentation on [Github_domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Domains%20API.md) 
 
-***5. call specify_a_working_domain API***<br>
+***5. Call specify_a_working_domain API to specified which domain to work with***<br>
 >After we running this step successfully, we directly complete the full login processes which means we totally join in Netbrain System by calling APIs(because we have record our tenantId and domainId，if users don't know the ID of corresponding tenant and domain please fully follow step 1 to step 4). Next step, we will start to use Netbrain functions formally. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_working_domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md).
 
-***6. call resolve_device_gateway API***
+***6. Call resolve_device_gateway API to get source device gateway information***
 >Becasue we have specified the Ip address of source device and destination device at beginning, we can calling resolve devices gateway API at here. Mention again, if users want to get path result by calling APIs then users must follow the sequencial from Step 6 to Step 8. After the API running successfully, we will get gateway information of two specyfied devices which is the required input for next section. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_Gateway](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Path%20API%20Design/STANDARD_formate_Resolve_Device_Gateway_API_Test.ipynb)
 
-***7. call calculate_path API***
+***7. Call calculate_path API to get the task ID***
 >During this section, we are going to calling the Calculate Path API and set the gateway information as one input(other inputs are shown in following sample code). When calling this API, users must input the required parameters correctly and follow the format of each inputs examples([Github_calPath](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Path%20API%20Design/STANDARD_formate_Calculate_Path_API_Test.ipynb)). After calling this API successfully, we will get the taskId of calculated path information. And the taskId is the only one required input for next section. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_calPath](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Path%20API%20Design/STANDARD_formate_Calculate_Path_API_Test.ipynb).
 
-***8. call get_path_result API***
+***8. Call get_path_result API to get the result of calculation path***
 >So far we attemp to the final functional step of this use case: to get the calculation result of the task which we have got the taskId in Step 7. After we running the following sample code successfully, we will finally get the path result in a json file. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_pathRes](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/Path%20API%20Design/STANDARD_formate_Get_Path_Calculation_Result_API_Test.ipynb). 
 
-***9. call logout API***
+***9. Call logout API to log out from current account***
 >After we got all informations from this case, we have to logout from the Netbrain System.
 If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_logout](https://github.com/Gongdai/Netbrain_REST_API_First_Regularization/blob/master/Netbrain_REST_API/API_test/STANDARD_formate_Logout_Test1%20.ipynb). 
 
@@ -170,7 +170,7 @@ def resolve_device_gateway(nb_url, token, ipOrHost, headers):
 
         
 # call calculate_path API
-def calculate_path(nb_url, headers, token, gw1, gw):
+def calculate_path(nb_url, headers, token, gw, destination_device_Ip):
     Calculate_Path_url = nb_url + "/ServicesAPI/API/V1/CMDB/Path/Calculation"
     headers["Token"] = token
 
@@ -179,7 +179,7 @@ def calculate_path(nb_url, headers, token, gw1, gw):
     sourceGwIP = gw["ip"]
     sourceGwDev = gw["devName"]
     sourceGwIntf = gw["intfName"]
-    destIP = gw1["ip"]
+    destIP = destination_device_Ip
     destPort = 0
     pathAnalysisSet = 2
     protocol = 4
@@ -286,15 +286,10 @@ def main(nb_url, headers, TenantName, DomainName, username, password, source_dev
     gw = source_gateway["gatewayList"][0]
     print(source_gateway)
     print(gw)
-    destination_gateway = resolve_device_gateway(nb_url, token, destination_device_Ip, headers)
-    gw1 = destination_gateway["gatewayList"][0]
-    print(destination_gateway)
-    print(gw1)
-    print("")
-
+    
     # Calling calculate path API
     print("Calling calculate path API")
-    res = calculate_path(nb_url, headers, token, gw1, gw)
+    res = calculate_path(nb_url, headers, token, gw, destination_device_Ip)
     print("Task ID : " + res)
     print("")
     
