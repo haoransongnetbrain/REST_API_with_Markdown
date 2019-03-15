@@ -210,7 +210,7 @@ def calculate_path(nb_url, headers, token, gw, destination_device_Ip):
         return (str(e)) 
 
 # call get_path_result API
-def get_patth_result(nb_url, headers, token, res):
+def get_path_result(nb_url, headers, token, res):
     Get_Path_Calulation_Result_url = nb_url + "/ServicesAPI/API/V1/CMDB/Path/Calculation/" + str(res) + "/Result"
     headers["Token"] = token
     try:
@@ -296,7 +296,7 @@ def main(nb_url, headers, TenantName, DomainName, username, password, source_dev
     # Calling get path result API
     print("Calling get path result API")
     while True:
-        final = get_patth_result(nb_url, headers, token, res)
+        final = get_path_result(nb_url, headers, token, res)
         if final != "<Response [400]>":
             print(final)
             break
