@@ -19,19 +19,19 @@ The sequencial of provided APIs is also the sequence of our workflow steps.
 ***Note***: if users want to find the path results of devices, then the step sequence must be followed. If users call these APIs with a different sequential then there would be no results or some errors would be occured.
 
 ## Step Explanation
-***1. import all useful modules and create global variables.***<br>
+***1. import all useful modules and create global variables***<br>
 > Note: If users try to use this code. please remember to change the "nb_url" to users' own working url.
 
-***2. call login API.***<br>
+***2. call login API***<br>
 >Same with use case 2, we calling the login API with "username" and "password" as inputs in the first step. As response we can get the authentication token as one fixed input in following APIs calling. If users get errors when calling this API please check the API documentation on [Github_login](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Login%20API.md).
 
 ***3. call get_all_accessible_tenants API***
 >After we got the token from previous section, we need to use this token as a key to find all tenants which we have the access authentication. During this step, the most important feature is to get the tenant id of the corresponding tenant which we decide to work inside. After running this API successfully, we will get the tenantId of the willing tenant which will be set as another input for next step API calling. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_tenant](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Tenants%20API.md) 
 
-***4. call get_all_accessible_domains API.***
+***4. call get_all_accessible_domains API***
 >In this section, we are going to find all accessible domains in the corressponding tenant which we have got the tenantId from previous step. Similar with step 2, during current API call, we have to decide which domain we are going to work inside and get the domainId at meanwhile to prepare for next API calling. If users get errors when calling this API please check the API documentation on [Github_domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Get%20All%20Accessible%20Domains%20API.md) 
 
-***5. call specify_a_working_domain API.***<br>
+***5. call specify_a_working_domain API***<br>
 >After we running this step successfully, we directly complete the full login processes which means we totally join in Netbrain System by calling APIs(because we have record our tenantId and domainId，if users don't know the ID of corresponding tenant and domain please fully follow step 1 to step 4 in use case 1). Next step, we will start to use Netbrain functions formally. If users want to get more details about this API or get errors when calling this API please check the API documentation on [Github_working_domain](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/REST%20APIs%20Documentation/Authentication%20and%20Authorization/Specify%20A%20Working%20Domain%20API.md).
 
 ***6. call resolve_device_gateway API***
