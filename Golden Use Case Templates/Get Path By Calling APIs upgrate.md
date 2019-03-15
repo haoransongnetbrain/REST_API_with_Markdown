@@ -315,6 +315,7 @@ def main(nb_url, headers, TenantName, DomainName, username, password, source_dev
     
 main(nb_url, headers, TenantName, DomainName, username, password, source_device, destination_device)
 ```
+### Response from API callings
 
     Calling login API
     {'token': 'a343eeab-1997-42d9-8064-3b7c466f547a', 'statusCode': 790200, 'statusDescription': 'Success.'}
