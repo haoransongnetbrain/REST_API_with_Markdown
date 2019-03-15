@@ -91,8 +91,7 @@ def login(nb_url, username, password, headers):
             return (js)
         else:
             return ("Get token failed! - " + str(response.text))
-    except Exception as e:
-        return (str(e))
+    except Exception as e: return (str(e))
 
 # call get_all_accessible_tenants API
 def get_all_accessible_tenants(nb_url, token, headers):
@@ -146,10 +145,8 @@ def specify_a_working_domain(tenantId, domainId, nb_url, headers, token):
             # Decode the JSON response into a dictionary and use the data
             result = response.json()
             return (domainId)
-            
-        elif response.status_code != 200:
+        else:
             return ("Login failed! - " + str(response.text))
-
     except Exception as e: print (str(e))
 
 # call resolve_device_gateway API
@@ -164,9 +161,7 @@ def resolve_device_gateway(nb_url, token, ipOrHost, headers):
             return (result)
         else:
             return ("Create module attribute failed! - " + str(response.text))
-
-    except Exception as e:
-        print (str(e))
+    except Exception as e: print (str(e))
 
         
 # call calculate_path API
@@ -205,9 +200,7 @@ def calculate_path(nb_url, headers, token, gw, destination_device_Ip):
             return (result["taskID"])
         else:
             return ("Create module attribute failed! - " + str(response.text))
-
-    except Exception as e:
-        return (str(e)) 
+    except Exception as e: return (str(e)) 
 
 # call get_path_result API
 def get_path_result(nb_url, headers, token, res):
@@ -220,15 +213,12 @@ def get_path_result(nb_url, headers, token, res):
             return (result)
         else:
             return (str(response))
-
-    except Exception as e:
-        return (str(e)) 
+    except Exception as e: return (str(e)) 
 
 # call logout API
 def logout(nb_url, token, headers):
     Logout_url = nb_url + "/ServicesAPI/API/V1/Session"
     headers["token"] = token
-    
     try:
         # Do the HTTP request
         response = requests.delete(Logout_url, headers=headers, verify=False)
@@ -239,9 +229,7 @@ def logout(nb_url, token, headers):
             return (js)
         else:
             return ("Session logout failed! - " + str(response.text))
-
-    except Exception as e:
-        return (str(e))
+    except Exception as e: return (str(e))
 
 ```
 
