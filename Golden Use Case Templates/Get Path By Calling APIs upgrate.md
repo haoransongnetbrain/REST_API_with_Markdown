@@ -316,8 +316,6 @@ main(nb_url, headers, TenantName, DomainName, username, password, source_device,
     Calling resolve device gateway API
     {'gatewayList': [{'ip': '123.10.1.22', 'devName': 'R6', 'intfName': 'Ethernet0/2'}], 'statusCode': 790200, 'statusDescription': 'Success.'}
     {'ip': '123.10.1.22', 'devName': 'R6', 'intfName': 'Ethernet0/2'}
-    {'gatewayList': [{'ip': '123.10.1.10', 'devName': 'R3', 'intfName': 'Ethernet0/1'}], 'statusCode': 790200, 'statusDescription': 'Success.'}
-    {'ip': '123.10.1.10', 'devName': 'R3', 'intfName': 'Ethernet0/1'}
     
     Calling calculate path API
     Task ID : 1e5c130e-f86c-46b5-bd80-fd7618ce93a5
