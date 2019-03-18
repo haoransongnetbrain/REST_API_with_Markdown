@@ -80,7 +80,7 @@ To add a new field to a table please follow the step in the link below:<br>
 https://developer.servicenow.com/app.do#!/lp/new_to_servicenow/app_store_learnv2_buildneedit_jakarta_adding_fields_to_a_table?v=jakarta
 
 ### c) Call API-triggered diagnosis task in your third-party systems. (Add Business Rule in ServiceNow)<a name="Call"></a>
-1. In ServiceNow, navigate to "Business Rule", and add a new rule to the page.
+1. In ServiceNow, navigate to "Business Rule", and add a new rule to the page.<br>
 <img src="images\image2018-2-9%2016_27_20.png" /><br>
 <center>Fig.5</center>
 
@@ -305,16 +305,16 @@ d) Update Business Rule in ServiceNow.<br>
 The following types of maps can be defined in the stub:<br>
 * Map 1 device and its neighbors
 ---* Topology options: IPv4 L3, IPv6 L3, L2.<br>
----* All interfaces or 1 specific interface (just specify long/short form name).
+---* All interfaces or 1 specific interface (just specify long/short form name).<br>
 * Open site map
----* Existing site map, or duplicate of site map.
+---* Existing site map, or duplicate of site map.<br>
 * Open existing Qmap
----* Existing map, or duplicate of site map.
+---* Existing map, or duplicate of site map.<br>
 * Draw a path
----* Path type: L3, L3 Active, L2
----* Date Source: Live Network, Baseline, historical data
----* Protocol
----* Gateway device
+---* Path type: L3, L3 Active, L2<br>
+---* Date Source: Live Network, Baseline, historical data<br>
+---* Protocol<br>
+---* Gateway device<br>
 ---* One way or bidirectional
 
 ### b) Customizing Runbooks in the Stub. <a name="Runbooks"></a>
@@ -336,17 +336,17 @@ After a runbook is specified, the following execution settings are be changed:
 If the wordings of the incident's short description changes, the following changes are to be made
 
 ### d) Update Business Rule in ServiceNow.<a name="Business"></a>
-1. In ServiceNow, navigate to "Business Rule", and open the rule you wish to edit.
+1. In ServiceNow, navigate to "Business Rule", and open the rule you wish to edit.<br>
 <img src="images\worddav54c9188ba18992f0e2e33249fcc080ad.png" /><br>
 <center>Fig.12</center>
 
-2. Edit the filter setting to match the requirement. 
+2. Edit the filter setting to match the requirement. <br>
 <img src="images\worddavf3db4fa118177bd1dc93fd8ff11ce6d0.png" /><br>
->><center>Fig.13</center>
+<center>Fig.13</center>
 
 3.In the advanced script, update the following lines of code to adjust the regex.
 <img src="images\worddavc927803dfa5ba84ab896bdd9f55543a3.png" /><br>
->><center>Fig.14</center>
+<center>Fig.14</center>
 
 Click "update" to save the Business Rule.
 
