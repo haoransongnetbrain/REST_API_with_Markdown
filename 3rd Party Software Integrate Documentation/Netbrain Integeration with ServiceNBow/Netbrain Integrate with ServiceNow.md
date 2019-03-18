@@ -65,15 +65,15 @@ d) View triggered tasks and results. (Troubleshooting)
 > ### a) Define an API-triggered diagnosis task in NetBrain. (Add Stub)<a name="Define"></a>
 >>1. Navigate to < your netbrain serverIP >/desktop.html<br>
 2. Click on the menu button and select "System Automation Manager"Note: If you don't have admin privilege you will not see the "System Automation Manager" (Shown in Fig.2)<br>
-<img src="images\worddavdbd2682c0faaec1fe567a6f2fe46390e.png" width="800" /><br>
+<img src="images\worddavdbd2682c0faaec1fe567a6f2fe46390e.png"  /><br>
 <center>Fig.2</center><br>
 
 >>3. Navigate to the "API Stub Manager" and select "Add Stub"<br>
-<img src="images\image2018-2-9%2016_25_5.png" width="800" /><br>
+<img src="images\image2018-2-9%2016_25_5.png"  /><br>
 <center>Fig.3</center><br>
 
 >>4. Enter the following details in the stub:Stub name, Map setting, Runbook. <br>
-<img src="images\image2018-2-9%2016_25_45.png" width="800" /><br>
+<img src="images\image2018-2-9%2016_25_45.png" /><br>
 <center>Fig.4</center><br>
 
 > ### b) Add custom column (NetBrainMapURL) to ServiceNow. (Add Stub)<a name="Add"></a>
@@ -82,11 +82,11 @@ https://developer.servicenow.com/app.do#!/lp/new_to_servicenow/app_store_learnv2
 
 > ### c) Call API-triggered diagnosis task in your third-party systems. (Add Business Rule in ServiceNow)<a name="Call"></a>
 >>1. In ServiceNow, navigate to "Business Rule", and add a new rule to the page.
-<img src="images\image2018-2-9%2016_27_20.png" width="800" /><br>
+<img src="images\image2018-2-9%2016_27_20.png" /><br>
 <center>Fig.5</center>
 
 >>2. Set the following settings on the Business Rule Page.<br>
-<img src="images\image2018-2-9%2016_30_0.png" width="800" /><br>
+<img src="images\image2018-2-9%2016_30_0.png" /><br>
 <center>Fig.5</center>
 
 >>3. Paste the script under advanced. (Please update Netbrain Server URL and NetBrain credential.)<br>
@@ -283,13 +283,13 @@ Same with reference in Github, we define all global variables at beginning then 
 >> 1. Navigate to incident page and add new incident, and make sure the "Configuration Item" is filled.<br>
 2. To see troubleshooting logs, right click on the grey panel on top and click "Save". This helps display logs in the next page which is loaded. <br>
 3. A map URL would appear in the case when integration is successful. Shown in Fig.6. When user click into the URL, there is a dynamic map exist, as shown in Fig.7<br>
-<img src="images\image2018-2-9%2016_26_43.png" width="800" /><br>
+<img src="images\image2018-2-9%2016_26_43.png" /><br>
 <center>Fig.6</center><br>
-<img src="images\image2018-2-9%2016_39_33.png" width="800" /><br>
+<img src="images\image2018-2-9%2016_39_33.png" /><br>
 <center>Fig.7</center><br>
 
 >>4. The list(Fig.8) of all the maps generated after each "trigger diagnostic" task is displayed in the System Automation Task Manager.<br>
-<img src="images\image2018-2-9%2016_37_43.png" width="800" /><br>
+<img src="images\image2018-2-9%2016_37_43.png" /><br>
 <center>Fig.8</center>
 
 ## Customizing existing use case<a name="Customizing"></a>
@@ -300,7 +300,7 @@ c) Customizing type of Incident to trigger stub. <br>
 d) Update Business Rule in ServiceNow.<br>
 
 > ### a) Customizing map in the Stub. <a name="Stub"></a>
-<img src="images\worddavdac55ddc321cc435666ee41213215dce.png" width="800" /><br>
+<img src="images\worddavdac55ddc321cc435666ee41213215dce.png" /><br>
 <center>Fig.9</center>
 
 >>The following types of maps can be defined in the stub:<br>
@@ -319,10 +319,10 @@ d) Update Business Rule in ServiceNow.<br>
 >>> * One way or bidirectional
 
 > ### b) Customizing Runbooks in the Stub. <a name="Runbooks"></a>
-<img src="images\worddav713ca71772831400453eeb9247bea908.png" width="800" /><br>
+<img src="images\worddav713ca71772831400453eeb9247bea908.png" /><br>
 <center>Fig.10</center>
 
-<img src="images\image2018-2-12%2010_17_7.png" width="800" /><br>
+<img src="images\image2018-2-12%2010_17_7.png" /><br>
 <center>Fig.11</center>
 
 >>After a runbook is specified, the following execution settings are be changed:
@@ -338,15 +338,15 @@ If the wordings of the incident's short description changes, the following chang
 
 > ### d) Update Business Rule in ServiceNow.<a name="Business"></a>
 >>> 1. In ServiceNow, navigate to "Business Rule", and open the rule you wish to edit.
-<img src="images\worddav54c9188ba18992f0e2e33249fcc080ad.png" width="800" /><br>
+<img src="images\worddav54c9188ba18992f0e2e33249fcc080ad.png" /><br>
 >><center>Fig.12</center>
 
 >>> 2. Edit the filter setting to match the requirement. 
-<img src="images\worddavf3db4fa118177bd1dc93fd8ff11ce6d0.png" width="800" /><br>
+<img src="images\worddavf3db4fa118177bd1dc93fd8ff11ce6d0.png" /><br>
 >><center>Fig.13</center>
 
 >>> 3.In the advanced script, update the following lines of code to adjust the regex.
-<img src="images\worddavc927803dfa5ba84ab896bdd9f55543a3.png" width="800" /><br>
+<img src="images\worddavc927803dfa5ba84ab896bdd9f55543a3.png" /><br>
 >><center>Fig.14</center>
 
 >>>Click "update" to save the Business Rule.
