@@ -43,53 +43,52 @@ b. Specified runbook output is saved in map
 
 ## Configuration of trigger map<a name="Configuration"></a>
 
-> 1) The trigger condition is set on the "incident" table – trigger is executed whenever a new incident is added to the table.<br>
+1) The trigger condition is set on the "incident" table – trigger is executed whenever a new incident is added to the table.<br>
 2) Script is executed when the trigger is executed – this is implemented in ServiceNow using "Business Rules". Within a business rule, "Advanced" option is checked to enable script<br>
 3) The script performs the following logical steps:<br>
->> a. Performs authentication with NetBrain server<br>
+a. Performs authentication with NetBrain server<br>
 b. Gather device display name from incident's "cmdb_ci" table<br>
 c. Trigger NetBrain Stub to generate the map<br>
 d. Receives the map URL as a response to the API call
-
->4) NetBrain credentials are placed in the script
+4) NetBrain credentials are placed in the script
 
 
 ## Deploying the setup<a name="Deploying"></a>
 The following major steps describe a general flow to define and use API-triggered diagnosis task:
 
->a) Define an API-triggered diagnosis task in NetBrain. (Add Stub)<br>
+a) Define an API-triggered diagnosis task in NetBrain. (Add Stub)<br>
 b) Add custom field (NetBrainMapURL) to ServiceNow.<br>
 c) Call API-triggered diagnosis task in your third-party systems. (Add Business Rule in ServiceNow)<br>
 d) View triggered tasks and results. (Troubleshooting)
 
-> ### a) Define an API-triggered diagnosis task in NetBrain. (Add Stub)<a name="Define"></a>
->>1. Navigate to < your netbrain serverIP >/desktop.html<br>
+### a) Define an API-triggered diagnosis task in NetBrain. (Add Stub)<a name="Define"></a>
+1. Navigate to < your netbrain serverIP >/desktop.html<br>
 2. Click on the menu button and select "System Automation Manager"Note: If you don't have admin privilege you will not see the "System Automation Manager" (Shown in Fig.2)<br>
 <img src="images\worddavdbd2682c0faaec1fe567a6f2fe46390e.png"  /><br>
 <center>Fig.2</center><br>
 
->>3. Navigate to the "API Stub Manager" and select "Add Stub"<br>
+3. Navigate to the "API Stub Manager" and select "Add Stub"<br>
 <img src="images\image2018-2-9%2016_25_5.png"  /><br>
 <center>Fig.3</center><br>
 
->>4. Enter the following details in the stub:Stub name, Map setting, Runbook. <br>
+4. Enter the following details in the stub:Stub name, Map setting, Runbook. <br>
 <img src="images\image2018-2-9%2016_25_45.png" /><br>
 <center>Fig.4</center><br>
 
-> ### b) Add custom column (NetBrainMapURL) to ServiceNow. (Add Stub)<a name="Add"></a>
->>To add a new field to a table please follow the step in the link below:<br>
+### b) Add custom column (NetBrainMapURL) to ServiceNow. (Add Stub)<a name="Add"></a>
+To add a new field to a table please follow the step in the link below:<br>
 https://developer.servicenow.com/app.do#!/lp/new_to_servicenow/app_store_learnv2_buildneedit_jakarta_adding_fields_to_a_table?v=jakarta
 
-> ### c) Call API-triggered diagnosis task in your third-party systems. (Add Business Rule in ServiceNow)<a name="Call"></a>
->>1. In ServiceNow, navigate to "Business Rule", and add a new rule to the page.
+### c) Call API-triggered diagnosis task in your third-party systems. (Add Business Rule in ServiceNow)<a name="Call"></a>
+1. In ServiceNow, navigate to "Business Rule", and add a new rule to the page.
 <img src="images\image2018-2-9%2016_27_20.png" /><br>
 <center>Fig.5</center>
 
->>2. Set the following settings on the Business Rule Page.<br>
+2. Set the following settings on the Business Rule Page.<br>
 <img src="images\image2018-2-9%2016_30_0.png" /><br>
 <center>Fig.5</center>
 
->>3. Paste the script under advanced. (Please update Netbrain Server URL and NetBrain credential.)<br>
+3. Paste the script under advanced. (Please update Netbrain Server URL and NetBrain credential.)<br>
 During this script, we totally follow the workflow of trigger a netbrain daynamic map by calling trigger diagnosis API. More information please check [here](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Calling%20Trigger%20Diagnosis%20API.md). A little differnt is we have to use Javascript in ServiceNow. Thus, we provide a Js script for ServiceNow integration.
 Same with reference in Github, we define all global variables at beginning then calling all rest APIs Js functions to get the triggered map URL, the last part is all functions we provide for Netbrain API calling.  
 
@@ -279,8 +278,8 @@ Same with reference in Github, we define all global variables at beginning then 
 
 })(current, previous);
 
-> ### d) View triggered tasks and results. (Manually add incident to demo the trigger diagnosis)<a name="View"></a>
->> 1. Navigate to incident page and add new incident, and make sure the "Configuration Item" is filled.<br>
+### d) View triggered tasks and results. (Manually add incident to demo the trigger diagnosis)<a name="View"></a>
+1. Navigate to incident page and add new incident, and make sure the "Configuration Item" is filled.<br>
 2. To see troubleshooting logs, right click on the grey panel on top and click "Save". This helps display logs in the next page which is loaded. <br>
 3. A map URL would appear in the case when integration is successful. Shown in Fig.6. When user click into the URL, there is a dynamic map exist, as shown in Fig.7<br>
 <img src="images\image2018-2-9%2016_26_43.png" /><br>
@@ -288,68 +287,68 @@ Same with reference in Github, we define all global variables at beginning then 
 <img src="images\image2018-2-9%2016_39_33.png" /><br>
 <center>Fig.7</center><br>
 
->>4. The list(Fig.8) of all the maps generated after each "trigger diagnostic" task is displayed in the System Automation Task Manager.<br>
+4. The list(Fig.8) of all the maps generated after each "trigger diagnostic" task is displayed in the System Automation Task Manager.<br>
 <img src="images\image2018-2-9%2016_37_43.png" /><br>
 <center>Fig.8</center>
 
 ## Customizing existing use case<a name="Customizing"></a>
->We are willing to provide a simple use case sample at here to help customer understand the workflow more directly. In this use case we totally consider four sections, listed as following. Then we will provide a brief explanation for each section.<br>
+We are willing to provide a simple use case sample at here to help customer understand the workflow more directly. In this use case we totally consider four sections, listed as following. Then we will provide a brief explanation for each section.<br>
 a) Customizing map in the Stub. <br>
 b) Customizing Runbooks in the stub. <br>
 c) Customizing type of Incident to trigger stub. <br>
 d) Update Business Rule in ServiceNow.<br>
 
-> ### a) Customizing map in the Stub. <a name="Stub"></a>
+### a) Customizing map in the Stub. <a name="Stub"></a>
 <img src="images\worddavdac55ddc321cc435666ee41213215dce.png" /><br>
 <center>Fig.9</center>
 
->>The following types of maps can be defined in the stub:<br>
->> * Map 1 device and its neighbors
->>> * Topology options: IPv4 L3, IPv6 L3, L2.<br>
->>> * All interfaces or 1 specific interface (just specify long/short form name).
->> * Open site map
->>> * Existing site map, or duplicate of site map.
->> * Open existing Qmap
->>> * Existing map, or duplicate of site map.
->> * Draw a path
->>> * Path type: L3, L3 Active, L2
->>> * Date Source: Live Network, Baseline, historical data
->>> * Protocol
->>> * Gateway device
->>> * One way or bidirectional
+The following types of maps can be defined in the stub:<br>
+* Map 1 device and its neighbors
+---* Topology options: IPv4 L3, IPv6 L3, L2.<br>
+---* All interfaces or 1 specific interface (just specify long/short form name).
+* Open site map
+---* Existing site map, or duplicate of site map.
+* Open existing Qmap
+---* Existing map, or duplicate of site map.
+* Draw a path
+---* Path type: L3, L3 Active, L2
+---* Date Source: Live Network, Baseline, historical data
+---* Protocol
+---* Gateway device
+---* One way or bidirectional
 
-> ### b) Customizing Runbooks in the Stub. <a name="Runbooks"></a>
+### b) Customizing Runbooks in the Stub. <a name="Runbooks"></a>
 <img src="images\worddav713ca71772831400453eeb9247bea908.png" /><br>
 <center>Fig.10</center>
 
 <img src="images\image2018-2-12%2010_17_7.png" /><br>
 <center>Fig.11</center>
 
->>After a runbook is specified, the following execution settings are be changed:
->>> 1. Frequency of a Monitor Qapp.<br>
+After a runbook is specified, the following execution settings are be changed:
+1. Frequency of a Monitor Qapp.<br>
 2. Data Source: Live Network<br>
 3. Maximum runtime allowed
 
->> ***Note:*** When customizing the stub, ensure the stub name is not changed. If the stub name is changed, the advanced script needs to be updated.
+***Note:*** When customizing the stub, ensure the stub name is not changed. If the stub name is changed, the advanced script needs to be updated.
 
-> ### c) Customizing type of Incident to trigger stub. <a name="type"></a>
+### c) Customizing type of Incident to trigger stub. <a name="type"></a>
 >>>Current business rule runs on the incident type "Link Status is down…". <br>
 If the wordings of the incident's short description changes, the following changes are to be made
 
-> ### d) Update Business Rule in ServiceNow.<a name="Business"></a>
->>> 1. In ServiceNow, navigate to "Business Rule", and open the rule you wish to edit.
+### d) Update Business Rule in ServiceNow.<a name="Business"></a>
+1. In ServiceNow, navigate to "Business Rule", and open the rule you wish to edit.
 <img src="images\worddav54c9188ba18992f0e2e33249fcc080ad.png" /><br>
->><center>Fig.12</center>
+<center>Fig.12</center>
 
->>> 2. Edit the filter setting to match the requirement. 
+2. Edit the filter setting to match the requirement. 
 <img src="images\worddavf3db4fa118177bd1dc93fd8ff11ce6d0.png" /><br>
 >><center>Fig.13</center>
 
->>> 3.In the advanced script, update the following lines of code to adjust the regex.
+3.In the advanced script, update the following lines of code to adjust the regex.
 <img src="images\worddavc927803dfa5ba84ab896bdd9f55543a3.png" /><br>
 >><center>Fig.14</center>
 
->>>Click "update" to save the Business Rule.
+Click "update" to save the Business Rule.
 
 ## Appendix <a name="Appendix"></a>
 If your requirement is different from the case stated above, please contact NetBrain Support for customization.
