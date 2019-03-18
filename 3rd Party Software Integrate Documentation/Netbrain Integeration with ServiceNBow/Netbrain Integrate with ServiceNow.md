@@ -25,11 +25,11 @@ d) [Update Business Rule in ServiceNow.](#Business)
 
 ## Requirements for both sides setup <a name="Requirements"></a>
 
-1. NetBrain requirements
+1. NetBrain requirements<br>
 a. NetBrain Tenant and Domain access.<br>
 b. Netbrain Web Server should be reached by ServiceNow instance via http/https.
 
-2. ServiceNow requirements
+2. ServiceNow requirements<br>
 a. ServiceNow admin access, which need to define "Business Rule".<br>
 b. ServiceNow Business Rule should be defined follow predefined "Business Rule" as a reference in NetBrain.
 
