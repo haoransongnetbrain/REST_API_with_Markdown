@@ -10,13 +10,13 @@
 3) [Configuration of trigger map.](#Configuration) 
 
 4) [Deploying the setup.](#Deploying) <br>
->>a. [Define an API-triggered diagnosis task in NetBrain (Add Stub).](#Define) <br>
+a. [Define an API-triggered diagnosis task in NetBrain (Add Stub).](#Define) <br>
 b. [Add custom field (NetBrainMapURL) to ServiceNow.](#Add) <br>
 c. [Call API-triggered diagnosis task in your third-party systems (Add Business Rule in ServiceNow).](#Call) <br>
 d. [View triggered tasks and results (Testing) Manually add incident to demo the trigger diagnosis.](#View) 
 
 5) [Customizing existing use case.](#Customizing) <br>
->>a) [Customizing map in the Stub.](#Stub) <br>
+a) [Customizing map in the Stub.](#Stub) <br>
 b) [Customizing Runbooks in the stub.](#Runbooks) <br>
 c) [Customizing type of Incident to trigger stub.](#type) <br>
 d) [Update Business Rule in ServiceNow.](#Business)
