@@ -34,7 +34,7 @@ a. ServiceNow admin access, which need to define "Business Rule".<br>
 b. ServiceNow Business Rule should be defined follow predefined "Business Rule" as a reference in NetBrain.
 
 ## Purpose of integration<a name="Purpose"></a>
-Whenever an incident is created in ServiceNow, it triggers NetBrain to build a map and perform diagnosis.(Shown in Fig.1!)
+Whenever an incident is created in ServiceNow, it triggers NetBrain to build a map and perform diagnosis.(Shown in Fig.1!)<br>
 a. Attach a NetBrain URL in the Incident, which open dynamic map of the device (Configuration Item)<br>
 b. Specified runbook output is saved in map
 
