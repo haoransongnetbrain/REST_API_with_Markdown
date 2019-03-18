@@ -44,7 +44,7 @@ b. Specified runbook output is saved in map
 ## Configuration of trigger map<a name="Configuration"></a>
 
 > 1) The trigger condition is set on the "incident" table – trigger is executed whenever a new incident is added to the table.<br>
-    2) Script is executed when the trigger is executed – this is implemented in ServiceNow using "Business Rules". Within a business rule, "Advanced" option is checked to enable script<br>
+2) Script is executed when the trigger is executed – this is implemented in ServiceNow using "Business Rules". Within a business rule, "Advanced" option is checked to enable script<br>
 3) The script performs the following logical steps:<br>
 >> a. Performs authentication with NetBrain server<br>
 b. Gather device display name from incident's "cmdb_ci" table<br>
