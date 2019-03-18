@@ -25,17 +25,17 @@ d) [Update Business Rule in ServiceNow.](#Business)
 
 ## Requirements for both sides setup <a name="Requirements"></a>
 
-> 1. NetBrain requirements
->> a. NetBrain Tenant and Domain access.<br>
+1. NetBrain requirements
+a. NetBrain Tenant and Domain access.<br>
 b. Netbrain Web Server should be reached by ServiceNow instance via http/https.
 
-> 2. ServiceNow requirements
->> a. ServiceNow admin access, which need to define "Business Rule".<br>
+2. ServiceNow requirements
+a. ServiceNow admin access, which need to define "Business Rule".<br>
 b. ServiceNow Business Rule should be defined follow predefined "Business Rule" as a reference in NetBrain.
 
 ## Purpose of integration<a name="Purpose"></a>
 Whenever an incident is created in ServiceNow, it triggers NetBrain to build a map and perform diagnosis.(Shown in Fig.1!)
->a. Attach a NetBrain URL in the Incident, which open dynamic map of the device (Configuration Item)<br>
+a. Attach a NetBrain URL in the Incident, which open dynamic map of the device (Configuration Item)<br>
 b. Specified runbook output is saved in map
 
 <img src="images\worddav4a5303f12c9797f1f2a1e70ccb99de60.png" width="800" /><br>
