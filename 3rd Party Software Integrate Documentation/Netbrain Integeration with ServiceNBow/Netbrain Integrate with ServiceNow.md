@@ -38,7 +38,7 @@ Whenever an incident is created in ServiceNow, it triggers NetBrain to build a m
 >a. Attach a NetBrain URL in the Incident, which open dynamic map of the device (Configuration Item)<br>
 b. Specified runbook output is saved in map
 
-<img src="image2018-2-12 10_17_7.png" width="800" /><br>
+<img src="images\image2018-2-12 10_17_7.png" width="800" /><br>
 <center>Fig. 1</center>
 
 ## Configuration of trigger map<a name="Configuration"></a>
