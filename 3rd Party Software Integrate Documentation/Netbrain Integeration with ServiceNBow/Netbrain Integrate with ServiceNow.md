@@ -92,6 +92,7 @@ https://developer.servicenow.com/app.do#!/lp/new_to_servicenow/app_store_learnv2
 During this script, we totally follow the workflow of trigger a netbrain daynamic map by calling trigger diagnosis API. More information please check [here](https://github.com/Gongdai/REST_API_with_Markdown/blob/master/Golden%20Use%20Case%20Templates/Calling%20Trigger%20Diagnosis%20API.md). A little differnt is we have to use Javascript in ServiceNow. Thus, we provide a Js script for ServiceNow integration.
 Same with reference in Github, we define all global variables at beginning then calling all rest APIs Js functions to get the triggered map URL, the last part is all functions we provide for Netbrain API calling.  
 
+   
 (function executeRule(current, previous /*null when async*/) {
 
     //Update the values of the following attributes to your specific API base URL, login credentials, and tenant/domain names
@@ -278,6 +279,7 @@ Same with reference in Github, we define all global variables at beginning then 
 
 })(current, previous);
 
+
 ### d) View triggered tasks and results. (Manually add incident to demo the trigger diagnosis)<a name="View"></a>
 1. Navigate to incident page and add new incident, and make sure the "Configuration Item" is filled.<br>
 2. To see troubleshooting logs, right click on the grey panel on top and click "Save". This helps display logs in the next page which is loaded. <br>
@@ -303,14 +305,14 @@ d) Update Business Rule in ServiceNow.<br>
 <center>Fig.9</center>
 
 The following types of maps can be defined in the stub:<br>
-* Map 1 device and its neighbors
+* Map 1 device and its neighbors<br>
 ---* Topology options: IPv4 L3, IPv6 L3, L2.<br>
 ---* All interfaces or 1 specific interface (just specify long/short form name).<br>
-* Open site map
+* Open site map<br>
 ---* Existing site map, or duplicate of site map.<br>
-* Open existing Qmap
+* Open existing Qmap<br>
 ---* Existing map, or duplicate of site map.<br>
-* Draw a path
+* Draw a path<br>
 ---* Path type: L3, L3 Active, L2<br>
 ---* Date Source: Live Network, Baseline, historical data<br>
 ---* Protocol<br>
@@ -332,7 +334,7 @@ After a runbook is specified, the following execution settings are be changed:
 ***Note:*** When customizing the stub, ensure the stub name is not changed. If the stub name is changed, the advanced script needs to be updated.
 
 ### c) Customizing type of Incident to trigger stub. <a name="type"></a>
->>>Current business rule runs on the incident type "Link Status is down…". <br>
+Current business rule runs on the incident type "Link Status is down…". <br>
 If the wordings of the incident's short description changes, the following changes are to be made
 
 ### d) Update Business Rule in ServiceNow.<a name="Business"></a>
