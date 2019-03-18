@@ -35,8 +35,8 @@ b. ServiceNow Business Rule should be defined follow predefined "Business Rule" 
 
 ## Purpose of integration<a name="Purpose"></a>
 Whenever an incident is created in ServiceNow, it triggers NetBrain to build a map and perform diagnosis.(Shown in Fig.1!)<br>
-	a. Attach a NetBrain URL in the Incident, which open dynamic map of the device (Configuration Item)<br>
-	b. Specified runbook output is saved in map
+   a. Attach a NetBrain URL in the Incident, which open dynamic map of the device (Configuration Item)<br>
+   b. Specified runbook output is saved in map
 
 <img src="images\worddav4a5303f12c9797f1f2a1e70ccb99de60.png" width="800" /><br>
 <center>Fig. 1</center>
